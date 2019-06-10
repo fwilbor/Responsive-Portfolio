@@ -1,0 +1,156 @@
+
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+#header {
+
+    padding: 0 0.5rem;
+    margin-bottom: 30px
+    height: 40px;
+    background: #333333;
+    
+     
+    }
+
+    #header h1 {
+
+      margin-left: 130px
+    }
+
+    .links {
+
+      font-size: x-large;
+      font-family: serif;
+      margin: 10px;
+      margin: right 100px
+    }
+
+    
+    h2 {
+
+      margin: 30px;
+    }
+    
+    nav {
+
+      float: right;
+      display: inline-block;
+      padding: 20px
+
+      
+    }
+
+    #main-bio {
+
+      clear: both;  
+    }
+
+
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 20px;
+        line-height: 150%;
+        color: #333;
+        background: #efeee7;
+      }
+      
+  
+      
+      h1 {
+        padding: 20px 0;
+        margin: 0;
+        font-size: 28px;
+        color: #eee;
+        display: inline-flex;
+        text-align: center;
+      }
+      
+      h2 {
+        font-size: 24px;
+        text-decoration: underline;
+  
+        
+      }
+      
+      p {
+        padding-left: 20px;
+        /* float: left; */
+      }
+      a {
+        color: #d21034;
+      }
+      
+     
+      #main-bio {
+        width: 70%;
+      }
+      
+      #contacts {
+        width: 30%;
+      }
+      
+      #bio-image {
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: black outset;
+        float: left;
+      }
+
+      footer {
+
+        text-align: center; 
+        color: #eee;
+        background-color: #333;
+        margin: 15px;
+
+    
+      }
+
+     #allcontent {
+
+      width: 960px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+     .content {
+
+        display: inline;
+        
+
+     }
+
+     
+     #input {
+      background-color: #d21034;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    #input :hover {
+      background-color: yellowgreen;}
+
+      @media screen and (max-width: 768px) { 
+
+        body { 
+          background-color: red;
+        }
+    
+      }

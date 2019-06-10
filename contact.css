@@ -1,0 +1,154 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  
+  }
+  
+  body {
+  
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkred;
+  }
+  
+  
+  
+  
+  
+  #header {
+  
+      padding: 0 0.5rem;
+      margin-bottom: 40px;
+      height: 80px;
+      background: #333333;
+      color: white;
+  
+          
+  }
+  
+  h1 {
+          padding: 20px;
+          margin: 0;
+          font-size: 28px;
+          color: #eee;
+          display: inline-flex;
+          text-align: center;
+        }
+  
+  nav {
+  
+      width: 30%;
+      color: red;
+      float: right;
+      display: inline-block;
+      padding: 10px;
+      font-family: serif;
+      font-size: larger;
+      margin: 10px;
+      
+  }
+  
+  a {
+      color: #d21034;
+      padding: 10px;
+      font-family: serif;
+    
+  
+    }
+  
+    h2 {
+  
+        margin-left: 15%;
+  
+  
+  
+    }
+    
+    
+    form {
+  
+      width: 960px;
+      background-color: darkgrey;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      resize: vertical;
+  
+  
+    }
+  
+    .container {
+  
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 960px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    #name {
+  
+        width: 700px;
+        padding: 10px;
+        margin: 30px;
+  
+  
+  
+  
+    }
+  
+  
+    #mail {
+            width: 700px;
+            padding: 10px;
+            margin: 30px;
+  
+  
+    }
+  
+  
+    #msg {
+  
+      width: 700px;
+      padding: 10px;
+      margin: 30px;
+      height: 333px;
+  
+  
+    }
+  
+    #submit {
+  
+      background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    }
+  
+    /* mouse over link */
+  #submit:hover {
+    color:gold;
+  }
+  
+  footer {
+  
+    text-align: center; 
+    color: #eee;
+    background-color: #333;
+    margin-bottom: 0;
+    height: 30px;
+    padding: 10px;
+  }
