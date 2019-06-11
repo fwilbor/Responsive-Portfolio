@@ -98,3 +98,15 @@
         padding: 10px;
 
     }
+
+
+    @media screen (max-width: 768px) {
+
+        nav{
+            margin: auto;
+            width: 100%
+
+
+        }
+
+    }
