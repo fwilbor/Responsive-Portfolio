@@ -163,15 +163,37 @@ html {
       @media screen and (max-width: 768px) { 
 
         body { 
-          background-color: red;
-        }
-    
-      }
+          background-size: 18px;
+          line-height: : 27px;
 
-      @media screen and (max-width: 945px) {
+        }
+        nav {
+
+            margin: auto;
+        }
+
+        
+        #allcontent {
+
+
+            width: 100%;
+            
+
+
+
+        }
+
+        .content {
+
+            margin: auto;
+            margin-left: 20px;
+        }
+        
+        
         footer {
-                width: 100%;
-                
-        }
 
+            margin: auto;
+        }
       }
+
+     
